@@ -74,6 +74,9 @@ const plugins = [
     },
   },
   {
+    resolve: `medusa-plugin-wishlist`,
+  },
+  {
     resolve: `medusa-plugin-sendgrid`,
     options: {
       api_key: process.env.SENDGRID_API_KEY,
